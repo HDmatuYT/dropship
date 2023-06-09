@@ -1,0 +1,115 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    }
+    
+    a {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    button, .button {
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    }
+    
+    button:hover, .button:hover {
+    background-color: #0056b3;
+    }
+    
+    /* Header styles */
+    
+    header {
+    background-color: #f1f1f1;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+    }
+    
+    h1 {
+    margin: 0;
+    }
+    
+    nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    nav li {
+    display: inline-block;
+    margin-right: 20px;
+    }
+    
+    nav a {
+    display: block;
+    padding: 10px;
+    }
+    
+    nav a:hover {
+    background-color: #ddd;
+    }
+    
+    /* Main content styles */
+    
+    main {
+    padding: 20px;
+    }
+    
+    section {
+    margin-bottom: 40px;
+    }
+    
+    h2 {
+    margin-top: 0;
+    }
+    
+    ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+    
+    li {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+    width: 30%;
+    }
+    
+    li:last-child {
+    margin-right: 0;
+    }
+    
+    img {
+    display: block;
+    max-width: 100%;
+    }
+    
+    span {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    }
+    
+    /* Footer styles */
+    
+    footer {
+    background-color: #f1f1f1;
+    border-top: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    }
+    
+    p {
+    margin: 0;
+    }
+    
+    
+    
